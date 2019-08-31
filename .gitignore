@@ -1,3 +1,18 @@
+# Ignore all the test server stuff.
+/test-server/
+!/test-server/run.sh
+
+# Something that CoC.nvim probably made.
+.project
+.settings
+
+# Gradle
+.gradle
+/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
 # Compiled class file
 *.class
 
