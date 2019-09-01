@@ -1,6 +1,7 @@
 # Ignore all the test server stuff.
 test-server/**
 !test-server/run.sh
+!test-server/run.bat
 
 # Something that CoC.nvim probably made.
 .project

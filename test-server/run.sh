@@ -13,6 +13,7 @@ if [[ ! -s "eula.txt" ]]; then
 fi
 
 rm -f mods/homestead-*.jar
+mkdir -p mods/
 cp ../build/libs/homestead-*.jar mods/
 
 java -Xmx2G -Xms1G -jar "spongevanilla-${VERSION}.jar"
