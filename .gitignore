@@ -16,6 +16,9 @@ gradle-app.setting
 # Java LSP
 .classpath
 
+# IntelliJ
+.idea
+
 # Compiled class file
 *.class
 
