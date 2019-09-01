@@ -13,6 +13,9 @@ gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
 
+# Java LSP
+.classpath
+
 # Compiled class file
 *.class
 
